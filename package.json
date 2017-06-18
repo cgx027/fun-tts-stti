@@ -1,0 +1,30 @@
+{
+  "name": "fun-tts-stti",
+  "version": "0.0.1",
+  "description": "test text to speech and speech to text",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cgx027/fun-tts-stti.git"
+  },
+  "keywords": [
+    "tts",
+    "stt"
+  ],
+  "author": "Ted Chen",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/cgx027/fun-tts-stti/issues"
+  },
+  "dependencies": {
+      "express": "^4.15.3",
+      "body-parser": "^1.17.2",
+      "uuid": "^3.1.0",
+      "serve-index": "^1.9.0"
+  },
+  "homepage": "https://github.com/cgx027/fun-tts-stti#readme"
+}
